@@ -30,6 +30,11 @@ nav {
 
   }
 
+  .brand-logo {
+    @include default-font(2em);
+
+  }
+
   ul {
     list-style-type: none;
     -webkit-margin-before: 0px;
@@ -40,8 +45,13 @@ nav {
 
   }
 
+  li {
+    @include default-font(15px);
 
   }
+
+
+}
 
 
 
